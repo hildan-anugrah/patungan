@@ -5,29 +5,29 @@
     "patungan": [
         {
             "id": 1,
-            "nama_grup": "gacoan",
+            "nama_grup": "Gacoan",
             "total_biaya": 42000,
             "biaya_per_orang": 10500,
             "anggota": [
                 {
-                    "nama": "fadel",
+                    "nama": "Fadel",
                     "status": "belum bayar"
                 },
                 {
-                    "nama": "acep",
+                    "nama": "Acep",
+                    "status": "belum bayar"
+                },
+                {
+                    "nama": "Hildan",
                     "status": "belum bayar"
                 },
                 {
                     "nama": "ferry",
                     "status": "belum bayar"
-                },
-                {
-                    "nama": "hildan",
-                    "status": "belum bayar"
                 }
             ],
-            "created_at": "2026-04-09 23:58:41",
-            "updated_at": "2026-04-09 23:58:41"
+            "created_at": "2026-04-10 00:24:12",
+            "updated_at": "2026-04-10 00:24:12"
         }
     ]
 }
