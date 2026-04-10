@@ -49,22 +49,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-// Default routes
-$route['default_controller'] = 'auth/login';
+$route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-
-// Authentication routes
-$route['auth/login'] = 'auth/login';
-$route['auth/register'] = 'auth/register';
-$route['auth/logout'] = 'auth/logout';
-
-// Dashboard routes
-$route['dashboard'] = 'dashboard/index';
-
-// Patungan routes
-$route['patungan/create'] = 'patungan_ctrl/create';
-$route['patungan/edit/(:any)'] = 'patungan_ctrl/edit/$1';
-$route['patungan/delete/(:any)'] = 'patungan_ctrl/delete/$1';
-$route['patungan/detail/(:any)'] = 'patungan_ctrl/detail/$1';
-$route['patungan/updateStatus'] = 'patungan_ctrl/updateStatus';

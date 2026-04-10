@@ -1,0 +1,33 @@
+{
+    "user_id": 1,
+    "username": "hildan",
+    "password": "$2y$10$tfUxVecLt7pf1HKsEyyiwe2LC1TlNMhZIFsEboV0jkUkRfaSWSxJi",
+    "patungan": [
+        {
+            "id": 1,
+            "nama_grup": "gacoan",
+            "total_biaya": 42000,
+            "biaya_per_orang": 10500,
+            "anggota": [
+                {
+                    "nama": "fadel",
+                    "status": "belum bayar"
+                },
+                {
+                    "nama": "acep",
+                    "status": "belum bayar"
+                },
+                {
+                    "nama": "ferry",
+                    "status": "belum bayar"
+                },
+                {
+                    "nama": "hildan",
+                    "status": "belum bayar"
+                }
+            ],
+            "created_at": "2026-04-09 23:58:41",
+            "updated_at": "2026-04-09 23:58:41"
+        }
+    ]
+}
