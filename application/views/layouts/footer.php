@@ -1,5 +1,7 @@
-    <footer class="mt-auto py-4" style="background-color: #2c3e50; color: white; text-align: center; margin-top: auto; width: 100%;">
-        <p class="mb-0">&copy; 2026 Aplikasi Patungan. All rights reserved.</p>
+    </main>
+    
+    <footer class="mt-auto py-3" style="background-color: var(--primary-blue); color: white; text-align: center; margin-top: 2rem; width: 100%;">
+        <p class="mb-0">&copy; 2026 Sistem Patungan. By Fhazar, Ferry, Fadel, Daffa, Hildan</p>
     </footer>
     
     <!-- Bootstrap 5 JS -->

@@ -11,25 +11,28 @@
     <div class="card">
         <div class="card-body">
             <h2 class="card-title mb-4">Detail Patungan</h2>
-            
-            <div class="row mb-4">
-                <div class="col-md-6 mb-3">
-                    <strong>Total Biaya:</strong>
-                    <p class="text-primary fs-5">Rp <?php echo number_format($patungan['total_biaya'], 0, ',', '.'); ?></p>
+            <div class="row row-cols-1 row-cols-md-3 g-3 mb-4">
+                    
+                        <div class="col">
+                            <div class="stat-card stat-card-primary">
+                                <div class="stat-card-title">Total Biaya</div>
+                                <div class="stat-card-value">Rp <?php echo number_format($patungan['total_biaya'], 0, ',', '.'); ?></div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="stat-card stat-card-success">
+                                <div class="stat-card-title">Biaya per Orang</div>
+                                <div class="stat-card-value">Rp <?php echo number_format($patungan['biaya_per_orang'], 0, ',', '.'); ?></div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="stat-card stat-card-purple">
+                                <div class="stat-card-title">Member Count</div>
+                                <div class="stat-card-value"><?php echo count($patungan['anggota']); ?></div>
+                            </div>
+                        </div>
+                    
                 </div>
-                <div class="col-md-6 mb-3">
-                    <strong>Biaya per Orang:</strong>
-                    <p class="text-success fs-5">Rp <?php echo number_format($patungan['biaya_per_orang'], 0, ',', '.'); ?></p>
-                </div>
-                <div class="col-md-6 mb-3">
-                    <strong>Jumlah Anggota:</strong>
-                    <p><span class="badge bg-info text-dark"><?php echo count($patungan['anggota']); ?> orang</span></p>
-                </div>
-                <div class="col-md-6 mb-3">
-                    <strong>Dibuat:</strong>
-                    <p><?php echo date('d/m/Y H:i', strtotime($patungan['created_at'])); ?></p>
-                </div>
-            </div>
 
             <h3 class="mb-3">Daftar Pembayaran Anggota</h3>
 

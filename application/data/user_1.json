@@ -28,6 +28,40 @@
             ],
             "created_at": "2026-04-10 00:24:12",
             "updated_at": "2026-04-10 00:24:12"
+        },
+        {
+            "id": 2,
+            "nama_grup": "kurban sapi",
+            "total_biaya": 10000000,
+            "biaya_per_orang": 1666666.67,
+            "anggota": [
+                {
+                    "nama": "hildan",
+                    "status": "belum bayar"
+                },
+                {
+                    "nama": "fhazar",
+                    "status": "belum bayar"
+                },
+                {
+                    "nama": "ferry",
+                    "status": "belum bayar"
+                },
+                {
+                    "nama": "fadel",
+                    "status": "belum bayar"
+                },
+                {
+                    "nama": "daffa",
+                    "status": "belum bayar"
+                },
+                {
+                    "nama": "acep",
+                    "status": "belum bayar"
+                }
+            ],
+            "created_at": "2026-04-10 01:33:43",
+            "updated_at": "2026-04-10 01:33:43"
         }
     ]
 }

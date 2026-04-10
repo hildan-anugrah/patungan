@@ -1,8 +1,8 @@
 <?php $this->load->view('layouts/header'); ?>
 
-<div class="container mt-5 flex-grow-1">
-    <div class="auth-container">
-        <div class="card auth-card">
+<div class="container mt-5 mb-5 flex-grow-1 d-flex align-items-center">
+    <div class="auth-container w-100">
+        <div class="auth-card">
             <h2>Daftar Akun Baru</h2>
 
             <?php if (isset($error)): ?>
@@ -23,21 +23,21 @@
 
                 <div class="mb-3">
                     <label for="username" class="form-label">Username</label>
-                    <input type="text" class="form-control" id="username" name="username" required autofocus>
+                    <input type="text" class="form-control" id="username" name="username" placeholder="Masukkan username" required autofocus>
                 </div>
 
                 <div class="mb-3">
                     <label for="password" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="password" name="password" required>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Masukkan password" required>
                 </div>
 
-                <div class="mb-3">
+                <div class="mb-4">
                     <label for="password_confirm" class="form-label">Konfirmasi Password</label>
-                    <input type="password" class="form-control" id="password_confirm" name="password_confirm" required>
+                    <input type="password" class="form-control" id="password_confirm" name="password_confirm" placeholder="Ulangi password" required>
                 </div>
 
                 <div class="d-grid gap-2">
-                    <button type="submit" class="btn btn-success btn-lg">Daftar</button>
+                    <button type="submit" class="btn btn-success">Daftar</button>
                 </div>
 
             </form>
