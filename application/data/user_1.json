@@ -62,6 +62,40 @@
             ],
             "created_at": "2026-04-10 01:33:43",
             "updated_at": "2026-04-10 01:33:43"
+        },
+        {
+            "id": 3,
+            "nama_grup": "Beli Saham Horizon",
+            "total_biaya": 100000000,
+            "biaya_per_orang": 16666666.67,
+            "anggota": [
+                {
+                    "nama": "Hildan",
+                    "status": "sudah bayar"
+                },
+                {
+                    "nama": "Acep",
+                    "status": "belum bayar"
+                },
+                {
+                    "nama": "Daffa",
+                    "status": "sudah bayar"
+                },
+                {
+                    "nama": "Ferry",
+                    "status": "belum bayar"
+                },
+                {
+                    "nama": "Fadel",
+                    "status": "belum bayar"
+                },
+                {
+                    "nama": "Fhazar",
+                    "status": "belum bayar"
+                }
+            ],
+            "created_at": "2026-04-10 01:50:47",
+            "updated_at": "2026-04-10 02:08:09"
         }
     ]
 }

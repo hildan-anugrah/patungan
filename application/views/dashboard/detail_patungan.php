@@ -52,7 +52,16 @@
                                 <td><?php echo $index + 1; ?></td>
                                 <td><?php echo htmlspecialchars($anggota['nama']); ?></td>
                                 <td>
-                                    <span class="badge status-badge status-<?php echo str_replace(' ', '-', $anggota['status']); ?>">
+                                    <?php 
+                                        $extra_class = '';
+                                        if ($anggota['status'] == 'sudah bayar') {
+                                            $extra_class = 'btn-success';
+                                        } elseif ($anggota['status'] == 'belum bayar') {
+                                            $extra_class = 'btn-danger';
+                                        }
+                                    ?>
+
+                                    <span class="badge status-badge <?php echo $extra_class; ?>">
                                         <?php echo ucfirst($anggota['status']); ?>
                                     </span>
                                 </td>
